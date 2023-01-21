@@ -7,6 +7,11 @@ const audio = document.getElementById("audio");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
+//Oldalbetöltődés kiírása konzolba
+window.addEventListener("load", ()=>{
+    console.log("Az oldal betöltődött");
+})
+
 //Zenék címei
 const songs = ["hey", "summer", "ukulele", "river"];
 
