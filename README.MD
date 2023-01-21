@@ -1,0 +1,9 @@
+- git init - inicializálom a gitet,
+- git pull "vizsga elérési útvonala" , a repository letöltése
+    - readme.md létrehozása,
+    - .gitignore fájl létrehozása feltöltése
+    - git add . - staging areához adás majd commit - létrehozok a master ágba egy verziót a két új fájl létrejött megjegyzéssel amik már ki vannak töltve
+- git add . - nem követett fájlok (Readme.md és .gitignore) hozzáadása a staging areához
+- git branch console - console nevű ág létrehozása
+- git checkout console - console ágba lépés
+- git push - feltöltés a repositoryba
